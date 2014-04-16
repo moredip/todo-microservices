@@ -14,8 +14,8 @@ class Todo
     @done
   end
 
-  def to_json
-    { id: @id, done: @done, text: @text }.to_json
+  def to_json args={}
+    { id: @id, done: @done, text: @text }.to_json args
   end
 end
 
@@ -34,5 +34,5 @@ get '/todo' do
 end
 
 get '/todo/:id' do
-  TodoService.find(params[:id]).to_json
+  TodoService.find(params[:id].to_i).to_json
 end

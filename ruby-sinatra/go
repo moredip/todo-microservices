@@ -1,0 +1,10 @@
+bundle install
+bundle exec rspec
+echo '
+
+Now open up a new terminal and run
+
+$ curl localhost:4567/todo
+
+'
+bundle exec ruby lib/todo.rb
