@@ -1,0 +1,21 @@
+todos:
+  -
+    id: 1
+    done: false
+    text: all todos
+  -
+    id: 2
+    done: true
+    text: sinatra todo
+  -
+    id: 3
+    done: true
+    text: wash the dog
+  -
+    id: 4
+    done: false
+    text: learn everything
+  -
+    id: 5
+    done: false
+    text: learn to skateboard
